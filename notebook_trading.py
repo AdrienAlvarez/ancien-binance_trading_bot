@@ -9,8 +9,6 @@ import math
 #Connection à l'API binance pour trader via mon compte
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
 from binance.exceptions import BinanceAPIException
-api_key = "TdRapGHsasGOpyYoRJxNFAg0EHbS1Hw0Huw8AN8izO7beExgkdgVLLru3QwnDTP2"
-api_secret = "UfT6DguZqgi6y0BWW7euARjtiPgqzNIk0kl0kqBkG9oiOJ4OeYWI53tgml10VNye"
 client = Client(api_key, api_secret)
 
 #Pour acheter ou revendre une quantité de crypto, il faut arrondir ce chiffre suivant les règles de binance
